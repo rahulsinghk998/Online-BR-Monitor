@@ -1,0 +1,15 @@
+Source: record slpdb/slp32  Start: [01:05:30.000 20/07/89]
+val has 7 rows (signals) and 900000 columns (samples/signal)
+Duration:  1:00:00
+Sampling frequency: 250 Hz  Sampling interval: 0.004 sec
+Row	Signal	Gain	Base	Units
+1	ECG	-500	0	mV
+2	BP	9.37288	-1138	mmHg
+3	EEG (C4-A1)	-9028.57	0	mV
+4	Resp (nasal)	-948	0	l
+5	Resp (chest)	-2226	0	l
+6	EOG	-2320	0	mV
+7	EMG	-41613.3	0	mV
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.
